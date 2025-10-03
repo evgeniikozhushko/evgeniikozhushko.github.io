@@ -1,2 +1,2 @@
 # evgeniikozhushko.github.io
-My web dev. resume hosting.
+Web development resume.
