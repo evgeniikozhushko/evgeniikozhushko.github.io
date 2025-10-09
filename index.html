@@ -12,6 +12,11 @@
             background-color: rgb(20, 20, 20);
             color: hsl(0, 0%, 93%);
             margin-top: 3rem;
+            
+            /* Set up a gradient background */
+              background: linear-gradient(-45deg, #ff6b6b, #f8e71c, #00d2ff, #00ff6a);
+              background-size: 400% 400%;
+              animation: gradientMove 12s ease infinite;
         }
         p {
             margin-bottom: 3rem; /* Add space between the text and button */
@@ -31,6 +36,13 @@
             color: hsl(0, 0%, 93%);
             border: solid hsl(0, 0%, 93%);
         }
+
+        /* Keyframes for gradient animation */
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
     </style>
 </head>
 <body>
